@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang=zh><head><meta charset=UTF-8><title>提现</title><meta id=viewport name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"><meta name=format-detection content="telephone=no"><link href=./css/xhh-profit-share.103f4821.css rel=stylesheet></head><body ontouchstart=""><script>(function (doc, win) {
+      var docEl = doc.documentElement,
+        isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+        dpr = isIOS? Math.min(win.devicePixelRatio, 3) : 1,
+        dpr = window.top === window.self? dpr : 1, //被iframe引用时，禁止缩放
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+      docEl.dataset.dpr = dpr;
+      var recalc = function () {
+        var width = docEl.clientWidth;
+        var height = docEl.clientHeight;
+        if (width / dpr > 750) {
+          width = 750 * dpr;
+        }
+        docEl.dataset.width = width
+        docEl.dataset.percent = 100 * (width / 750);
+        docEl.style.fontSize = 100 * (width / 750) + 'px';
+        doc.body.style.width = width + 'px';
+        doc.body.style.height = height + 'px';
+      };
+      recalc()
+      isIOS && doc.documentElement.classList.add('iosx' + win.devicePixelRatio)
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+    })(document, window);</script><section class=wrap><div class=inner id=inner><div class=content><div class=amount><span>-</span>元</div><canvas class=qrcode id=qrcode></canvas></div></div><section class=m-share><p class=f-share-title>通过以下方式邀请好友</p><div class=share-wrap><div class=share-item data-share=weixin data-stat=profitShare@share@wechat><div class="f-share-icon wx"></div><p>微信好友</p></div><div class=share-item data-share=timeline data-stat=profitShare@share@timeline><div class="f-share-icon tl"></div><p>微信朋友圈</p></div></div></section></section><section class=m-toast-modal><div class=toast-wrap><div class=toast-content><div class=f-img></div><p>分享成功</p><div class=f-gold><span>+30</span>金币</div></div></div></section><script src=./js/xhh-profit-share.ee8c372e.js></script></body></html>

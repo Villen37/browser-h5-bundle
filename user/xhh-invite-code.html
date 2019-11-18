@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang=zh><head><meta charset=UTF-8><title>填写邀请码</title><meta id=viewport name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"><meta name=format-detection content="telephone=no"><script>(function (doc, win) {
+        var docEl = doc.documentElement,
+          isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+          dpr = isIOS? Math.min(win.devicePixelRatio, 3) : 1,
+          dpr = window.top === window.self? dpr : 1, //被iframe引用时，禁止缩放
+          resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        docEl.dataset.dpr = dpr;
+        var recalc = function () {
+            var width = docEl.clientWidth;
+            if (width / dpr > 750) {
+                width = 750 * dpr;
+            }
+            docEl.dataset.width = width
+            docEl.dataset.percent = 100 * (width / 750);
+            docEl.style.fontSize = 100 * (width / 750) + 'px';
+          };
+        recalc()
+        isIOS && doc.documentElement.classList.add('iosx' + win.devicePixelRatio)
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+      })(document, window);</script><link href=./css/xhh-invite-code.1477b8a6.css rel=stylesheet></head><body ontouchstart=""><section class=cover style=width:100%;height:100%;background:#f6f6f6;position:fixed;top:0></section><section class=m-container><input class=js-invite-code type=text placeholder=向好友索要或者从链接中复制><p>提交成功后即可获得<span>1480</span>金币哦</p><div class="confirm js-confirm">确定</div></section><section class=m-toast><div class=toast></div></section><section class=m-toast-modal><div class=toast-wrap><div class=toast-content><div class=f-img></div><p>邀请码验证成功</p><div class=f-gold><span>+1480</span>金币</div></div></div></section><script src=./js/xhh-invite-code.56b6145c.js></script></body></html>

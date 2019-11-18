@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"><title>任务中心</title><script>(function (doc, win) {
+          var docEl = doc.documentElement,
+              isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+              dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
+              dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
+              resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+          docEl.dataset.dpr = dpr;
+          var recalc = function () {
+              var width = docEl.clientWidth;
+              if (width / dpr > 750) {
+                  width = 750 * dpr;
+              }
+              docEl.dataset.width = width
+              docEl.dataset.percent = 100 * (width / 750);
+              docEl.style.fontSize = 100 * (width / 750) + 'px';
+          };
+          recalc()
+          isIOS && doc.documentElement.classList.add('iosx' + win.devicePixelRatio)
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+      })(document, window);</script><link href=./static_task/css/task.499024e083e97579843ff8e7a04612cd.css rel=stylesheet></head><body><div id=app class=app-task></div><script type=text/javascript src=./static_task/js/vendor.26b92d3dcb6884558978.js></script><script type=text/javascript src=./static_task/js/task.4add04e57b0d8e1ec548.js></script></body><script src=//static.iqiyi.com/js/common/vconsole.js></script><script>var vconsole = new VConsole();</script></html>

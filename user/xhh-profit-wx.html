@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang=zh><head><meta charset=UTF-8><title>看视频轻松赚零花钱</title><meta id=viewport name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"><meta name=format-detection content="telephone=no"><link href=./css/xhh-profit-wx.cd783947.css rel=stylesheet></head><body ontouchstart=""><script>(function (doc, win) {
+        var docEl = doc.documentElement,
+                isIOS = navigator.userAgent.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+                dpr = isIOS ? Math.min(win.devicePixelRatio, 3) : 1,
+                dpr = window.top === window.self ? dpr : 1, //被iframe引用时，禁止缩放
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        docEl.dataset.dpr = dpr;
+        var recalc = function () {
+            var width = docEl.clientWidth;
+            var height = docEl.clientHeight;
+            if (width / dpr > 750) {
+                width = 750 * dpr;
+            }
+            docEl.dataset.width = width
+            docEl.dataset.percent = 100 * (width / 750);
+            docEl.style.fontSize = 100 * (width / 750) + 'px';
+            doc.body.style.width = width + 'px';
+            //doc.body.style.height = height + 'px';
+        };
+        recalc()
+        isIOS && doc.documentElement.classList.add('iosx' + win.devicePixelRatio)
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+    })(document, window);</script><section class=content><div class=marquee-wrap><div class=inner></div></div><div class=userinfo><div class=avatar-ctn><img></div><div class=nickname>---</div></div><div class=user-coin>在<img src=//browser.xsed.com.cn/pro/web/static/img/logo.png alt="">看视频赚了<span>－</span>元</div><div class=title>就差你了，来跟我一起领福利！</div><div class=invite-ctn><div class=code>------</div><div class=copy data-stat=profitShareWechat@copy>复制邀请码</div></div><div class=red-packet-ctn><div class=money-ctn><span class=num>888</span>元</div><div class=rule-tip>看视频轻松赚零花钱！<br>邀请1好友赚<span class=num>6</span>元，奖励无限叠加</div><div class="warning-tip hide">请在微信/QQ上打开该链接</div><div class=download-btn data-stat=profitShareWechat@download>领</div><div class=tip>多重福利叠加！提现快速到账！</div></div><div class=toast></div><div class="topline hide"></div></section><script src=./js/xhh-profit-wx.2d6e58e1.js></script></body></html>
