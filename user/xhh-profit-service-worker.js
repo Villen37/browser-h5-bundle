@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["./css/xhh-profit.8f811b63.css","29ab2710c900f84f1a5cf9a41a0b94da"],["./js/xhh-profit.ff830890.js","cb0059cb6819cd7f68ec541c40515132"]];
+var precacheConfig = [["./css/xhh-profit.8f811b63.css","29ab2710c900f84f1a5cf9a41a0b94da"],["./js/xhh-profit.bea9b67c.js","1e70df5e8537a383a091177620adf096"]];
 var cacheName = 'sw-precache-v3-xhh-profit-' + (self.registration ? self.registration.scope : '');
 
 
