@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["./css/xhh-share.7f11258d.css","12ee6292ed8c937eeb32c9914ff914fe"],["./js/xhh-share.83408bc4.js","478a604f6bb3f63f264c1845b2fc9138"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_bg.95f25aad.png","95f25aadaec5eeed790d247fdcab39b1"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_left_dot.db625b0b.png","db625b0bbf46f66a674cf45ee4a04b85"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_normal_btn.a0d14f60.png","a0d14f600d44643acd3c6fe5e593bf95"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_redpacket.a4b67d1e.png","a4b67d1e4d72f71d4bf8247aa335f948"]];
+var precacheConfig = [["./css/xhh-share.7f11258d.css","12ee6292ed8c937eeb32c9914ff914fe"],["./js/xhh-share.7c298e69.js","ee6de30131f889e5295b6044930ef788"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_bg.95f25aad.png","95f25aadaec5eeed790d247fdcab39b1"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_left_dot.db625b0b.png","db625b0bbf46f66a674cf45ee4a04b85"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_normal_btn.a0d14f60.png","a0d14f600d44643acd3c6fe5e593bf95"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/share_redpacket.a4b67d1e.png","a4b67d1e4d72f71d4bf8247aa335f948"]];
 var cacheName = 'sw-precache-v3-xhh-share-' + (self.registration ? self.registration.scope : '');
 
 
