@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["./css/xhh-invite-code.1477b8a6.css","847c50f362b102b671eba10fa803cb17"],["./js/xhh-invite-code.52e0a51b.js","2a45443cf2aff0083d3f282747473d98"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/gold-bag.72fcdf73.png","72fcdf739189f3487fe69b5d20d7ac5d"]];
+var precacheConfig = [["./css/xhh-invite-code.1477b8a6.css","847c50f362b102b671eba10fa803cb17"],["./js/xhh-invite-code.5498ce3f.js","83e8a032e6a97b0c794739fb71a0b587"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/gold-bag.72fcdf73.png","72fcdf739189f3487fe69b5d20d7ac5d"]];
 var cacheName = 'sw-precache-v3-xhh-invite-code-' + (self.registration ? self.registration.scope : '');
 
 

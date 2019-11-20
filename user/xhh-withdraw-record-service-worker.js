@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["./css/xhh-withdraw-record.cfbbd766.css","742b7efcac16d91e5b49e339eef5eb95"],["./js/xhh-withdraw-record.f58471e7.js","a255953f2a951700136399319e4485f8"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/close.dcd0f348.png","dcd0f3487784c94a5337435cb7c5b220"]];
+var precacheConfig = [["./css/xhh-withdraw-record.cfbbd766.css","742b7efcac16d91e5b49e339eef5eb95"],["./js/xhh-withdraw-record.d8ded207.js","2c247a0f953a6497a76eeb81a5e763a9"],["/Applications/XAMPP/xamppfiles/htdocs/wangyiCode/3g-lite/img/close.dcd0f348.png","dcd0f3487784c94a5337435cb7c5b220"]];
 var cacheName = 'sw-precache-v3-xhh-withdraw-record-' + (self.registration ? self.registration.scope : '');
 
 
